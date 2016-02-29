@@ -1,0 +1,29 @@
+{
+  "name": "file-chunk-processor",
+  "version": "0.0.1",
+  "description": "Reads a file in sections and allows an operation to be performed on each chunk of data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graymanto/file-chunk-processor.git"
+  },
+  "keywords": [
+    "file",
+    "chunk",
+    "processor"
+  ],
+  "author": "Graham Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graymanto/file-chunk-processor/issues"
+  },
+  "homepage": "https://github.com/graymanto/file-chunk-processor#readme",
+  "dependencies": {
+    "fs-promise": "^0.4.1",
+    "jasmine": "^2.4.1",
+    "lodash": "^4.5.1"
+  }
+}
